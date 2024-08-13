@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fitness Club</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <nav>
@@ -16,7 +23,9 @@
           <li>Contact</li>
           <li>About</li>
         </ul>
-        <img id="ham" src="/images/menu-button-wide.svg" alt="Menu Icon" />
+        <div class="hambur">
+          <i class="fa-solid fa-bars"></i>
+        </div>
       </div>
     </nav>
     <header>
@@ -139,6 +148,81 @@
             </div>
           </div>
         </div>
+      </section>
+      <section class="BMIsection">
+        <div class="bmiHeading">
+          <h1>BMI Calculator</h1>
+          <p>We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
+        </div>
+        <!-- fgdfg -->
+         <div class="FullBMISection">
+        <div class="BmiSection">
+          <div class="FormFullSection">
+            <div class="chart-container">
+              <h1>BMI Calculator Chart</h1>
+              <table>
+                <tr>
+                  <th>BMI</th>
+                  <th>Weight Status</th>
+                </tr>
+                <tr>
+                  <td>Below 18.5</td>
+                  <td>Underweight</td>
+                </tr>
+                <tr>
+                  <td>18.5 - 24.9</td>
+                  <td>Healthy</td>
+                </tr>
+                <tr>
+                  <td>25.0 - 29.9</td>
+                  <td>Overweight</td>
+                </tr>
+                <tr>
+                  <td>30.0 - and Above</td>
+                  <td>Obese</td>
+                </tr>
+              </table>
+            </div>
+            <div class="FormSection">
+              <div class="formContent">
+                <h1>Calculate your BMI</h1>
+                <p>
+                  We believe fitness should be accessible to everyone, everywhere,
+                  regardless of income or access to a gym.
+                </p>
+              </div>
+              <div class="FormMain">
+                <form action="#" method="post">
+                  <div class="form1">
+                    <input class="Form" type="text" placeholder="Height/cm" />
+                    <input class="Form" type="text" placeholder="Weight/kg" />
+                  </div>
+                  <div class="form2">
+                    <input class="Form" type="text" placeholder="Age" />
+                    <select class="Form">
+                      <option value="" disabled selected hidden>Sex</option>
+                      <option>Male</option>
+                      <option>Female</option>
+                    </select>
+                  </div>
+                  <select id="Form">
+                    <option value="" disabled selected hidden>
+                      Select an activity factor
+                    </option>
+                    <option>Sedentary</option>
+                    <option>Lightly active</option>
+                    <option>Moderately active</option>
+                    <option>Very active</option>
+                    <option>Extra active</option>
+                  </select>
+                </form>
+                <button id="FormBtn">Calculate</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+         <!-- fhkdjsf -->
       </section>
        <section class="teamSection">
         <div class="teamSectionMain">

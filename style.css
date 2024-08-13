@@ -359,6 +359,143 @@ button {
   font-weight: 600;
 }
 
+/* BMI Section */
+.bmiHeading {
+  width: 50%;
+  margin: 0 auto;
+}
+.bmiHeading h1 {
+  color: rgb(255, 255, 255);
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 900;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.bmiHeading p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  text-align: left;
+}
+/* fkgjdfklg */
+
+/* Tableeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee */
+.FullBMISection {
+  background-color: #2e2e2e;
+  padding-bottom: 50px;
+}
+.BmiSection {
+  display: flex;
+  padding-top: 50px;
+  width: 80%;
+  margin: 0 auto;
+}
+.FormFullSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chart-container {
+  text-align: center;
+  width: 47%;
+  align-items: center;
+}
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+table {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+th,
+td {
+  padding: 15px;
+  border: 1px solid #555;
+}
+th {
+  background-color: #333;
+  font-weight: bold;
+}
+td {
+  background-color: #2e2e2e;
+}
+
+/* Form */
+.FormSection {
+  width: 50%;
+}
+.formContent p {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  text-align: left;
+}
+.form1 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.Form {
+  width: 100%;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  padding: 15px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+#Form {
+  width: 100%;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  padding: 15px;
+}
+input[type="text"] {
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+}
+input[type="text"]::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+.form2 {
+  display: flex;
+  justify-content: space-between;
+}
+select {
+  background-color: #2e2e2e;
+  color: rgba(255, 255, 255, 0.6);
+  padding: 5px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+select option {
+  background-color: #2e2e2e;
+  color: rgba(255, 255, 255, 0.6);
+}
+#FormBtn {
+  border-radius: 42px;
+  background: rgb(230, 83, 60);
+  padding: 15px 50px;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+/* jfdsgdjg */
 /* Team Section */
 .teamSection {
   width: 100%;
@@ -482,9 +619,7 @@ footer {
   text-align: center;
   color: rgb(99, 87, 89);
 }
-#ham {
-  width: 50px;
-  filter: invert(1);
+.hambur {
   display: none;
 }
 /* Let's Make it Responsive for small device */
@@ -498,8 +633,9 @@ footer {
   .navMain ul {
     display: none;
   }
-  #ham {
+  .hambur {
     display: block;
+    font-size: xx-large;
   }
   .headerMain {
     flex-direction: column;
@@ -585,6 +721,39 @@ footer {
   #img4 p {
     top: 130px;
     left: 20px;
+  }
+  /* BMI Sectioooooooooooooooon */
+  .bmiHeading h1 {
+    font-size: 30px;
+  }
+  .BmiSection {
+    width: 100%;
+  }
+  .FormFullSection {
+    flex-direction: column;
+    width: 100%;
+  }
+  .chart-container {
+    /* border: 5px solid saddlebrown; */
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .chart-container h1 {
+    padding-left: 50px;
+  }
+  .FormSection {
+    /* border: 5px solid saddlebrown; */
+    width: 80%;
+    padding-top: 50px;
+  }
+  .chart-container h1 {
+    font-size: 23px;
+  }
+  .formContent h1 {
+    font-size: 25px;
   }
   /* Team Sectin */
   .teamSection {
