@@ -361,7 +361,7 @@ button {
 
 /* BMI Section */
 .bmiHeading {
-  width: 50%;
+  width: 74%;
   margin: 0 auto;
 }
 .bmiHeading h1 {
@@ -493,6 +493,8 @@ select option {
   padding: 15px 50px;
   font-size: 20px;
   margin-top: 10px;
+  color: #ffff;
+  cursor: pointer;
 }
 
 /* jfdsgdjg */
@@ -583,6 +585,67 @@ select option {
   margin-top: 200px;
   text-align: start;
 }
+
+/* TestimoniSection */
+.TestiHeadTitle {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 80px;
+}
+.TestiHeadTitle h1 {
+  font-size: 55px;
+  font-weight: 800;
+}
+.TestiHeadTitle p {
+  color: rgba(255, 255, 255, 0.622);
+  margin: 10px 0px;
+}
+
+.testimoniCard {
+  width: 33%;
+  text-align: center;
+  align-items: center;
+}
+
+.testiImg {
+  position: relative;
+  bottom: 65px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+#testiImg1 img {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  overflow: hidden;
+}
+.testimoniCard:hover {
+  border: 1px solid rgba(10, 85, 233, 0.902);
+  border-radius: 10px;
+  text-decoration: none;
+}
+.testiCardName {
+  margin-top: -50px;
+}
+.testiCardName p {
+  padding: 18px 0 25px 0;
+  color: rgba(255, 255, 255, 0.622);
+}
+.testimoniHeadCard {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+}
+.TestiMainComment {
+  padding: 40px 0;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.622);
+}
+
+/* TestimoniSection */
 /* FooooooooooooTeeeeeeeeeeeeeeeeer */
 footer {
   background-color: rgba(29, 25, 25, 0.902);
@@ -623,168 +686,3 @@ footer {
   display: none;
 }
 /* Let's Make it Responsive for small device */
-
-@media screen and (max-width: 576px) {
-  .navMain {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  .navMain ul {
-    display: none;
-  }
-  .hambur {
-    display: block;
-    font-size: xx-large;
-  }
-  .headerMain {
-    flex-direction: column;
-    align-items: center;
-    width: 80%;
-    justify-content: center;
-  }
-  .headerContent h1 {
-    font-size: 60px;
-    text-align: center;
-    text-align: start;
-    margin-left: 20px;
-  }
-  .headerContent p {
-    font-size: 20px;
-    text-align: center;
-    text-align: start;
-    margin-right: 20px;
-    margin-left: 20px;
-  }
-  .headerContentButton {
-    text-align: center;
-    margin-left: 10px;
-    display: flex;
-  }
-  .headerPictureTxt1 {
-    position: relative;
-    width: 60%;
-    top: -550px;
-    left: 190px;
-  }
-  .headerPictureTxt2 {
-    position: relative;
-    width: 60%;
-    top: -500px;
-    left: 5px;
-  }
-  .serviceSection {
-    margin-top: -250px;
-    align-items: center;
-    width: 100%;
-    justify-content: center;
-  }
-  .ServiceSectionMain {
-    width: 80%;
-  }
-  .serviceSectionContent {
-    grid-template-columns: 1fr;
-    gap: 20px;
-  }
-  .runSectionHead {
-    flex-direction: column;
-    align-items: center;
-    width: 80%;
-    justify-content: center;
-  }
-  .runSectionImg {
-    margin-top: 30px;
-    height: 250px;
-    width: 100%;
-  }
-  .trainingSectionHead {
-    align-items: center;
-    width: 80%;
-    justify-content: center;
-  }
-
-  .trainingSectionFlex {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .trainingSectionFlex2 {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-  }
-  #img2,
-  #img6 {
-    display: none;
-  }
-  #img4 {
-    grid-column: span 1;
-  }
-  #img4 p {
-    top: 130px;
-    left: 20px;
-  }
-  /* BMI Sectioooooooooooooooon */
-  .bmiHeading h1 {
-    font-size: 30px;
-  }
-  .BmiSection {
-    width: 100%;
-  }
-  .FormFullSection {
-    flex-direction: column;
-    width: 100%;
-  }
-  .chart-container {
-    /* border: 5px solid saddlebrown; */
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-  }
-  .chart-container h1 {
-    padding-left: 50px;
-  }
-  .FormSection {
-    /* border: 5px solid saddlebrown; */
-    width: 80%;
-    padding-top: 50px;
-  }
-  .chart-container h1 {
-    font-size: 23px;
-  }
-  .formContent h1 {
-    font-size: 25px;
-  }
-  /* Team Sectin */
-  .teamSection {
-    align-items: center;
-    width: 100%;
-    justify-content: center;
-  }
-  .teamSectionMain {
-    width: 80%;
-  }
-  .teamSectionHead {
-    margin-left: 0;
-  }
-  .teamSectionImg1,
-  .teamSectionImg2 {
-    grid-template-columns: 1fr;
-    margin-bottom: 20px;
-  }
-  .footerSection {
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    width: 100%;
-  }
-  .footerSectionHead {
-    padding-bottom: 40px;
-  }
-  .footerSectionFlex {
-    grid-template-columns: 1fr;
-    align-items: center;
-    text-align: start;
-    justify-content: start;
-  }
-}
